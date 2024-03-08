@@ -31,7 +31,7 @@ jobs:
 
       
     - name: Kubectl create ns 
-      run:  kubectl create ns harbor
+      run:  kubectl create ns my-harbor
 
 
     - name: Install Helm
