@@ -30,8 +30,8 @@ jobs:
       run: aws eks update-kubeconfig --region us-east-1 --name education-eks-LvNQEFwV
 
       
-    - name: Kubectl create ns 
-      run:  kubectl create ns my-harbor
+    # - name: Kubectl create ns 
+    #   run:  kubectl create ns my-harbor
 
 
     - name: Install Helm
