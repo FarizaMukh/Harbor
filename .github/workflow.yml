@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  grafana:
+  harbor:
     runs-on: ubuntu-latest
 
     steps:
